@@ -1,0 +1,94 @@
+import Image from 'next/image'
+
+## Prior Art
+
+Extensible Parsers
+
+- https://tree-sitter.github.io/tree-sitter/
+- https://github.com/lezer-parser/lr
+- https://github.com/pegjs/pegjs
+- https://github.com/acornjs/acorn
+
+Metaprogramming Languages (code as data)
+
+- Nim
+- C++
+- Lisp
+
+Specifications
+
+- https://github.com/estree/estree
+
+Theory
+
+- https://en.wikipedia.org/wiki/Chomsky_hierarchy
+
+Infrastructure
+
+- https://microsoft.github.io/language-server-protocol/
+- https://lezer.codemirror.net/
+- https://jupyter-client.readthedocs.io/en/stable/kernels.html
+
+## Modus Operandi
+
+Most programming languages work like this:
+
+Uqbar programs generate their own parser at runtime
+
+Uqbar supports "dialoscope" production rules,
+
+Uses SHA-256 to identify external objects
+
+## Concepts
+
+Bootloader dialects
+
+dialectic scope
+
+Syntatic symbol
+
+Abstract symbol
+
+Printers
+
+Kinds of printer:
+
+- Syntax trees
+- Text
+- Graph
+- Bayesian network
+- Spreadsheet
+
+## Version Control & packaging
+
+Every symbol can be put into version control, as a sha-256 identifier, public or
+private repository
+
+## Table Stakes
+
+Language Features
+
+Tooling
+
+- parse
+- compile
+- typecheck
+- lint
+- hint (documentation)
+- format
+- highlight
+- link
+- optimise
+- partially evaluate (https://prepack.io/)
+
+## People
+
+- https://marijnhaverbeke.nl/
+
+## Tools
+
+Tools
+
+- https://github.com/atom/superstring (info:
+  https://blog.atom.io/2017/10/12/atoms-new-buffer-implementation.html)
+- https://codemirror.net/6/
